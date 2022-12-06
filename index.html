@@ -1,0 +1,381 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edluvision's Bengalen</title>
+    <link rel="stylesheet" href="css/main_css.css">
+    <link rel="stylesheet" href="js/java-script.js">
+    <link rel="stylesheet" href="css/glider.min.css">
+    <link rel="icon" type="image" href="fav_cats.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <!-- Bootstrap 5 -->
+<link rel="stylesheet" href="/path/to/cdn/bootstrap.min.css" />
+<script src="/path/to/cdn/bootstrap.bundle.min.js"></script>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="/path/to/font-awesome/all.min.css" />
+    <script>
+    (function($) { // Begin jQuery
+    $(function() { // DOM ready
+     // If a link has a dropdown, add sub menu toggle.
+     $('nav ul li a:not(:only-child)').click(function(e) {
+       $(this).siblings('.nav-dropdown').toggle();
+       // Close one dropdown when selecting another
+       $('.nav-dropdown').not($(this).siblings()).hide();
+       e.stopPropagation();
+     });
+     // Clicking away from dropdown will remove the dropdown class
+     $('html').click(function() {
+       $('.nav-dropdown').hide();
+     });
+     // Toggle open and close nav styles on click
+     $('#nav-toggle').click(function() {
+       $('nav ul').slideToggle();
+     });
+     // Hamburger to X toggle
+     $('#nav-toggle').on('click', function() {
+       this.classList.toggle('active');
+     });
+     }); // end DOM ready
+    })(jQuery); // end jQuery
+    </script>
+
+    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+ 
+  </head>
+
+  <body>
+    <section class="navigation">
+        <div class="nav-container">
+          <div class="brand">
+            <a href="index.html">
+             <img src="images/my-edluvision.svg">
+            </a>
+          </div>
+          <nav>
+            <div class="nav-mobile">
+              <a id="nav-toggle" href="#!"><span></span></a>
+            </div>
+            <ul class="nav-list">
+              <!-- Setting the links to #! will ensure that no action takes place on click. -->
+              <li><a href="#ueber_uns">Über uns</a></li>
+              <li><a href="#section_second">Kitten</a></li>
+              <li><a href="#cats">katzen</a></li>
+              <li><a href="rasse.html">rasse</a></li>
+              <li><a href="#footer">kontakt</a></li> 
+              
+            </ul>
+          </nav>
+        </div>
+    </section>
+    <div class="main_wrapper">
+        <div class="section_header">
+            <div class="section_header_text">
+                <p>
+                  Bengalkatzen </br>aus unserer kleiner familiärer Bengalzucht
+                </p>
+                <div class="images_wrapper_hero">
+                  <div class="button">
+                    <a href="https://www.facebook.com/edlu.cats">
+                    <img src="images/fb_media_icon.svg" width="50px">
+                    </a>
+                  </div>
+                  <div>
+                    <a href="https://instagram.com/my_edluvision?utm_medium=copy_link">
+                    <img src="images/instagram_media_icon.svg" width="50px">
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class="section_header_img">
+              <img src="images/katze_header_img.png">
+            </div>
+        </div>
+        <div class="section_info">
+          <p style="font-weight:500; color: darkgreen;">Kätzchen warten schon auf Euch!</p>
+        </div>
+        <div class="section_info_2 section_second" id="section_second">
+          <div class="wrapper_center_img">
+            <img src="images/katze_3_img.png">
+          </div>
+          <div class="textbox">
+            <div class="title_box">
+              <p>Kitten</p>
+            </div>
+            <ul>
+              <li>Kitten werden <span class="text-bold">im Alter von 12 Wochen abgegeben</span> und sind bis dahin je <span class="text-bold">zwei Mal gegen Katzenschnupfen und Katzenseuche geimpft</span</li>
+              <li>Erhalten ein <span class="text-bold">Stammbaum von Cats Unlimited</span>, werden kastriert und gechipt</li>
+              <li>Ein Kaufvertrag wird aufgesetzt</li>
+              <li>Bis zur Abgabe werden die Kitten <span class="text-bold">mehrmals entwurmt</span>, erhalten ein Kotprofil und eine ärztliche Untersuchung </li>
+              <li>Sind stubenrein, gewöhnt an Festnahrung (Barf), Verlassen uns mit einem Startpaket wie Essen für die ersten Tage und einem Lieblingsspielzeug </li>
+              <li>Bestens sozialisiert</li>
+            </ul>
+          </div>
+        </div>
+        <!--Slider-->
+        <section class="p-slider">
+          <div class="glider-contain">
+            <div class="glider">
+
+            <div class="product-box">
+              <div class="p-img-container">
+                <div class="p-img">
+                    <img src="images/cats/cats-slider8.jpg" class="p-img-front" alt="Front">
+                    <img src="images/cats/cats-slider15.jpg" class="p-img-back" alt="Back">
+                </div>
+              </div>
+            </div>
+
+            <div class="product-box">
+              <div class="p-img-container">
+                <div class="p-img">
+                    <img src="images/cats/cats-slider9.jpg" class="p-img-front" alt="Front">
+                    <img src="images/cats/cats-slider16.jpg" class="p-img-back" alt="Back">
+                </div>
+              </div>
+            </div>
+
+            <div class="product-box">
+              <div class="p-img-container">
+                <div class="p-img">
+                    <img src="images/cats/cats-slider10.jpg" class="p-img-front" alt="Front">
+                    <img src="images/cats/cats-slider17.jpg" class="p-img-back" alt="Back">
+                </div>
+              </div>
+            </div>
+
+            <div class="product-box">
+              <div class="p-img-container">
+                <div class="p-img">
+                    <img src="images/cats/cats-slider11.jpg" class="p-img-front" alt="Front">
+                    <img src="images/cats/cats-slider18.jpg" class="p-img-back" alt="Back">
+                </div>
+              </div>
+            </div>
+
+            <div class="product-box">
+              <div class="p-img-container">
+                <div class="p-img">
+                    <img src="images/cats/cats-slider12.jpg" class="p-img-front" alt="Front">
+                    <img src="images/cats/cats-slider19.jpg" class="p-img-back" alt="Back">
+                </div>
+              </div>
+            </div>
+
+            <div class="product-box">
+              <div class="p-img-container">
+                <div class="p-img">
+                    <img src="images/cats/cats-slider13.jpg" class="p-img-front" alt="Front">
+                    <img src="images/cats/cats-slider20.jpg" class="p-img-back" alt="Back">
+                </div>
+              </div>
+            </div>
+
+            <div class="product-box">
+              <div class="p-img-container">
+                <div class="p-img">
+                    <img src="images/cats/cats-slider14.jpg" class="p-img-front" alt="Front">
+                    <img src="images/cats/cats-slider6.jpg" class="p-img-back" alt="Back">
+                </div>
+              </div>
+            </div>
+            <div class="product-box">
+              <div class="p-img-container">
+                <div class="p-img">
+                    <img src="images/cats/cats-slider1a.jpg" class="p-img-front" alt="Front">
+                    <img src="images/cats/cats-slider3.jpg" class="p-img-back" alt="Back">
+                </div>
+              </div>
+            </div>
+            <div class="product-box">
+              <div class="p-img-container">
+                <div class="p-img">
+                    <img src="images/cats/cats-slider15.jpg" class="p-img-front" alt="Front">
+                    <img src="images/cats/cats-slider18.jpg" class="p-img-back" alt="Back">
+                </div>
+              </div>
+            </div>
+            <div class="product-box">
+              <div class="p-img-container">
+                <div class="p-img">
+                    <img src="images/cats/cats-slider20.jpg" class="p-img-front" alt="Front">
+                    <img src="images/cats/cats-slider11.jpg" class="p-img-back" alt="Back">
+                </div>
+              </div>
+            </div>
+
+
+            </div>
+          
+            <button aria-label="Previous" class="glider-prev">«</button>
+            <button aria-label="Next" class="glider-next">»</button>
+            <div role="tablist" class="dots"></div>
+        </div>
+           
+        </section>
+        <!--Slider-->
+        <div class="section_info_2" id="ueber_uns">
+          <div id="paw_big"><img src="images/paw-icon.svg"></div>
+            <div class="wrapper_center_img">
+              <img src="images/cats_edyta.png">
+            </div>
+            <div class="textbox" >
+                <div class="title_box">
+                <p>Über uns</p>
+                </div>
+                <p>Unsere kleine, aber feine und familiäre Bengalen Zucht <span class="text-bold">"Edluvision´s" ist bei TICA registriert</span>. Die Katze wachsen mit uns im Wohnzimmer auf und zählen als Familienmitglieder. Wir alle sind sehr engagiert und beteiligen uns in der Sozialisierung der Kitten. Mein Traum, eine Züchterin von dieser wundervollen Rasse zu werden, wäre nie in Erfüllung gegangen, ohne die Hilfe von diesen großartigen Züchtern: <span class="text-bold">Julia Zitzelsberger(Karwendelberg´s Bengalen), die immer mit einem Rat an meiner Seite steht und mich unterstützt</span>, ebenso wie <span class="text-bold">Franziska Kassik(Bengalen of Oz), die ihr Wissen gerne teilt und bereit ist zu helfen</span> und <span class="text-bold">Alexandrine Rocha(Sweet Land Bengals), die mir den wunderschönen Kater Raissa anvertraut hat</span>. Er ist ein wahrer französischer Gentleman mit einem großartigen Charakter.</p></br>
+                <a href="images/german_american_cat_club.jpg" target="_blank"><p><span class="text-bold" style="padding-top:20px;">Cats Unlimited >></span></p></a>
+                <a href="images/edyta_gawelek_zertifikat.jpg" target="_blank"><p><span class="text-bold" style="padding-top:20px;">Zertifikat >></span></p></a></br>
+                <p><span class="text-bold">Mein Zuchtziel:</span></p>
+                <ul>
+                  <li>gesunde und sozialisierte Katzen züchten</li>
+                  <li>sich an die TICA Standard Vorgaben halten</li>
+                </ul>
+            </div>
+        </div>
+          
+        </div>
+        <section class="cats" id="cats">
+          <div class="title_box">
+            <p>Katzen</p>
+          </div>
+          <div class="cards_wrapper">
+            <div class="cat1">
+              <div class="cat_title">
+                <img src="images/cats/cat_caramel.jpg">
+              </div>
+              <div class="cat_description">
+                <h4>von Olympic Mif Caramel of Edluvision´s</h3>
+                <p><span><b>Katze</b></span></p>
+                <p>geb. 18.10.2018</p>
+                <p>Farbe: brown (black) spotted Tabby</p>
+                <p>Träger: A/a, D/d</p>
+                <p class="text-bold">Untersuchungen:</p>
+                <ul>
+                  <li>PKD – N/N</li>
+                  <li>Pra-b – N/N</li>
+                  <li>Felv – negativ</li>
+                  <li>FiV – negativ</li>
+                  <li>HCM – negativ</li>
+                </ul>
+              </div>
+            </div>
+            <div class="cat1">
+              <div class="cat_title">
+                <img src="images/cats/cat_smarty.jpg">
+              </div>
+              <div class="cat_description">
+                <h4>Karewendelberg´s Smarty of Edluvision´s </h3>
+                <p><span><b>Katze</b></span></p>
+                <p>geb. 22.12.2018</p>
+                <p>Farbe: brown spotted Tabby</p>
+                <p>Träger: A/apb, C/cs</p>
+                <p class="text-bold">Untersuchungen:</p>
+                <ul>
+                  <li>PKD – N/N</li>
+                  <li>Pra-b – N/N</li>
+                  <li>Felv – negativ</li>
+                  <li>FiV – negativ</li>
+                  <li>HCM – negativ</li>
+                </ul>
+              </div>
+            </div>
+            <div class="cat1">
+              <div class="cat_title">
+                <img src="images/cats/cat_toffee.jpg">
+              </div>
+              <div class="cat_description">
+                <h4>Edluvision´s Toffee</h3>
+                <p><span><b>Katze</b></span></p>
+                <p>geb. 18.03.2021</p>
+                <p>Farbe: brown spotted Tabby</p>
+                <p>Träger: A/a, D/d</p>
+                <p class="text-bold">Untersuchungen:</p>
+                <ul>
+                  <li>PKD – N/N</li>
+                  <li>Pra-b – N/N</li>
+                  <li>Felv – negativ</li>
+                  <li>FiV – negativ</li>
+                  <li>HCM – negativ</li>
+                </ul>
+              </div>
+            </div>
+            <div class="cat1">
+              <div class="cat_title">
+                <img src="images/cats/cat_raissa.jpg">
+              </div>
+              <div class="cat_description">
+                <h4>De Sweet Land Bengal Raissa of Edluvision´s</h3>
+                <p><span><b>Kater</b></span></p>
+                <p>geb. 01.10.2022</p>
+                <p>Farbe: brown spotted Tabby</p>
+                <p>Träger: A/a, C/cs</p>
+                <p class="text-bold">Untersuchungen:</p>
+                <ul>
+                  <li>PKD – N/N</li>
+                  <li>Pra-b – N/N</li>
+                  <li>Felv – negativ</li>
+                  <li>FiV – negativ</li>
+                  <li>HCM – negativ</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+    </div>
+      <div class="footer" id="footer">
+        <div class="footer_wrapper">
+            <div class="title_box">
+              <p>Kontakt</p>
+            </div>
+            <div class="wrapper_footer">
+              <div class="contact_icon"><img src="images/phone-solid.svg" width="20px"><p class="contact_text">017663131388</p></div>
+              <div class="contact_icon"><img src="images/envelope-solid.svg" width="20px"><p class="contact_text">edit.burek@gmx.de</p></div>
+              <a href="https://goo.gl/maps/SzPVw73ebjauoYTy8"><div class="contact_icon"><img src="images/location-dot-solid.svg" width="20px"><p class="contact_text">Munich | Ottobrun</p></div></a>
+              <a href="impressum.html"><div class="contact_icon"><img src="images/book-solid.svg" width="20px"><p class="contact_text">Impressum</p></div></a>
+            </div>
+        </div>
+      </div>
+    <script src="js/glider.min.js"></script>
+    <script>
+          new Glider(document.querySelector('.glider'), {
+        // Mobile-first defaults
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        scrollLock: true,
+        dots: '.dots',
+        arrows: {
+          prev: '.glider-prev',
+          next: '.glider-next'
+        },
+        responsive: [
+          {
+            // screens greater than >= 775px
+            breakpoint: 775,
+            settings: {
+              // Set to `auto` and provide item width to adjust to viewport
+              slidesToShow: 'auto',
+              slidesToScroll: 'auto',
+              itemWidth: 150,
+              duration: 0.25
+            }
+          },{
+            // screens greater than >= 1024px
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              itemWidth: 150,
+              duration: 0.25
+            }
+          }
+        ]
+      });
+
+      
+    </script> 
+    </body>
+</html>
